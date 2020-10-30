@@ -1,7 +1,7 @@
 FROM openjdk:7-jre-alpine
 LABEL Maintainer="Frank Rahn <frank@frank-rahn.de>"
 
-RUN apk add --no-cache curl && mkdir /opt
+RUN apk add --no-cache curl && mkdir -p /opt
 
 ENV TOMCAT_MAJOR_VERSION 7
 ENV TOMCAT_MINOR_VERSION 0

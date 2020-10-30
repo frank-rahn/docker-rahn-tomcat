@@ -1,5 +1,6 @@
-# Docker rahn/tomcat
-Ein Docker Image mit [Apache Tomcat](https://tomcat.apache.org/) basierend auf dem [OpenJDK](https://hub.docker.com/_/openjdk).
+# Docker-Image rahn/tomcat
+Ein Docker-Image mit [Apache Tomcat](https://tomcat.apache.org/) basierend auf dem 
+[OpenJDK](https://hub.docker.com/_/openjdk).
 
 ## Quellen
 [docker-tomcat-rahn](https://github.com/frank-rahn/docker-tomcat-rahn)
@@ -16,9 +17,12 @@ In das Verzeichnis `lib` werden z. B. der Datenbanktreiber kopiert.
 
 In der Datei `context.xml` werden die [Resource-Einträge](https://tomcat.apache.org/tomcat-7.0-doc/config/context.html) für die Datenbank eingetragen.
 
-Das Beispiel wird mit folgendem Befehl gebaut und gestartet:
+Das Beispiel wird mit folgendem Befehl gebaut:
 
     docker build -t beispiel .
+
+Det folgende Befehl startet den Tomcat:
+
     docker run --rm  --name beispiel -p 127.0.0.1:8080:8080/tcp beispiel
 
 ## Exposed Ports
