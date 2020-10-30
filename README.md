@@ -16,6 +16,11 @@ In das Verzeichnis `lib` werden z. B. der Datenbanktreiber kopiert.
 
 In der Datei `context.xml` werden die [Resource-Einträge](https://tomcat.apache.org/tomcat-7.0-doc/config/context.html) für die Datenbank eingetragen.
 
+Das Beispiel wird mit folgendem Befehl gebaut und gestartet:
+
+    docker build -t beispiel .
+    docker run --rm  --name beispiel -p 127.0.0.1:8080:8080/tcp beispiel
+
 ## Exposed Ports
 * 8080/tcp
 * 8009/ajp
