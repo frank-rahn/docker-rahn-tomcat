@@ -33,7 +33,8 @@ Det folgende Befehl startet den Tomcat:
 * CATALINA_HOME
 
 ## Versions
-* latest, 7, 7.0, 7.0.106 (OpenJDK: 7-jre-alpine, Tomcat: 7.0.106) [(Dockerfile)](https://github.com/frank-rahn/docker-rahn-tomcat/blob/main/7.0.106/Dockerfile)
+* latest, 7, 7.0, 7.0.109 (OpenJDK: 7-jre-alpine, Tomcat: 7.0.109) [(Dockerfile)](https://github.com/frank-rahn/docker-rahn-tomcat/blob/main/7.0.109/Dockerfile)
+* 7.0.106 (OpenJDK: 7-jre-alpine, Tomcat: 7.0.106) [(Dockerfile)](https://github.com/frank-rahn/docker-rahn-tomcat/blob/main/7.0.106/Dockerfile)
 * 7.0.81 (OpenJDK: 7-jre-alpine, Tomcat: 7.0.81) [(Dockerfile)](https://github.com/frank-rahn/docker-rahn-tomcat/blob/main/7.0.81/Dockerfile)
 * 7.0.52 (OpenJDK: 7-jre-alpine, Tomcat: 7.0.52) [(Dockerfile)](https://github.com/frank-rahn/docker-rahn-tomcat/blob/main/7.0.52/Dockerfile)
 
